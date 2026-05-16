@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>First Page</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background:#e6f0ff;
+            text-align:center;
+            padding:60px;
+        }
+
+        .container{
+            background:white;
+            width:350px;
+            margin:auto;
+            padding:25px;
+            border-radius:12px;
+            box-shadow:0 0 10px rgba(0,0,0,0.2);
+        }
+
+        h1{
+            color:#333;
+        }
+
+        p{
+            color:#666;
+        }
+
+        button{
+            padding:10px 20px;
+            border:none;
+            background:green;
+            color:white;
+            border-radius:5px;
+            cursor:pointer;
+            font-size:16px;
+        }
+
+        button:hover{
+            background:darkgreen;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Welcome Page</h1>
+
+        <p>This is the first page.</p>
+        <p>Click the button to view test data.</p>
+
+        <button onclick="window.location.href='second.html'">
+            Go to Test Data
+        </button>
+
+    </div>
+
+</body>
+</html>
